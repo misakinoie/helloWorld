@@ -1,0 +1,107 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(181, 169, 153);
+    margin: 0;
+}
+.header1{
+    padding: 15px;
+    height: 400px;
+    background-image: url(/img/bg-3.jpg);
+    background-size:cover;
+    background-attachment:local;
+    background-position: right center;
+}
+.headertitle{
+    margin-top: 140px;
+    color: aliceblue;
+    text-align: center;
+}
+.headertitle h1{
+    font-size: 41px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 4px rgb(21, 20, 20);
+}
+.headertitle p{
+    background-color: rgba(18, 17, 17, 0.7);
+    padding: 10px 10px;
+    margin: auto;
+    display: inline-block;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+main{
+    margin: auto;
+    width: 80%;
+}
+section{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+section h2{
+    text-align: center;
+    background-color: rgb(198, 192, 184);
+    padding: 15px;
+    margin-top: 0%;
+    border-bottom-width: 2px;
+    border-color: rgb(111, 111, 111);
+    border-bottom-style: solid;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 3px 3px 5px rgb(21, 20, 20);
+    background-color: rgb(90, 88, 88);
+    padding: 10px;
+    margin-top: 10px;
+}
+.first{
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+    
+}
+.first1, .first2{
+    margin-right: 2%;
+}
+.first img{
+    width: 100%;
+}
+.first a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(90, 88, 88);
+    color: white;
+    display: block;
+    padding: 10px;
+
+}
+.first a:hover{
+    background-color: rgb(111, 111, 111);
+}
+.header1 nav ul{
+    text-align: right;
+    margin:0%;
+}
+.header1 nav li{
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.header1 nav a{
+    color: white;
+    background-color: rgba(90, 88, 88, 0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+.header1 a:hover{
+    background-color: rgb(147, 145, 145);
+}
+.header1 a:visited{
+    color: white;
+}
